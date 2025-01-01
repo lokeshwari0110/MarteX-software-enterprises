@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Martex Enterprises</title>
+        <title>Martex enterprises</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -18,182 +18,200 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <style> 
-        #image {
-            height: 300px;
-            width: 100%;
-        }
-        .cardu:hover {
-            transform: scale(1.1);
-        }
-        .cardu {
-            width: 100%;
-            height: 500px;
-            transition: transform .5s;
-        }
-        body {
-            overflow: scroll;
-        }
-        body::-webkit-scrollbar {
-            display: none;
-        }
-        body {
-            background-image: url(./bg.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
-            z-index: -1;
-            background-attachment: fixed;
-        }
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
-            z-index: -1;
-        }
-        #contact {
-            background-image: url(./hand.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
-            z-index: -1;
-        }
-        #contact::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9); /* Black with 50% opacity */
-            z-index: -1;
-        }
-        header {
-            background-image: url(./hand.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            position: relative;
-            z-index: -1;
-        }
-        header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.9); /* Black with 50% opacity */
-            z-index: -1;
-        }
+    #image{
+        height: 300px;
+        width: 500px;
+    }
+    .cardu:hover{
+        transform: scale(1.1);
+    }
+    .cardu{
+        width: 400px;
+        height: 500px;
+        transition: transform .5s;
+    }
+    body {
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+    body {
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    z-index: -1;
+}
+#contact{
+    background-image: url(./hand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);  /* Black with 50% opacity */
+    z-index: -1;
+    
+}
+header{
+    background-image: url(./hand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);  /* Black with 50% opacity */
+    z-index: -1;
+    
+}
+
     </style>
-    <body class="bg-black">
+    <body class="bg-black" >
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid px-5">
-                <a class="navbar-brand text-warning" href="#!" style="font-size: 30px; font-weight: bold;">MARTEX SOFTWARE ENTERPRISES</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="container px-5">
+                <a class="navbar-brand text-warning" href="#!" style=" font-size: 30px;  font-weight: bold;">MARTEX SOFTWARE ENTERPRISES</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header-->
-        <header class="py-5 mb-5" id="tag">
+        <header class=" py-5 mb-5" style="position: relative;" id="tag">
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6 text-center my-5">
-                        <h1 class="display-5 fw-bolder text-white mb-2">IT Solutions that transform your business</h1>
-                        <p class="lead text-white-50 mb-4 mt-3">Transform your business with MarteX—where innovation meets excellence in the digital world!</p>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a class="btn btn-outline-light btn-lg px-4 mt-3" href="https://docs.google.com/forms/d/e/1FAIpQLScsodwo3BSL3fPVXAx6iLFriDg4T5f8l3XY_jdpXrwILIyMgA/viewform?embedded=true">Connect with us</a>
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">IT Solutions ​that transform ​your business</h1>
+                            <p class="lead text-white-50 mb-4 mt-3">Transform your business with MarteX—​where innovation meets excellence in ​the digital world!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-outline-light btn-lg px-4 mt-3" href="https://docs.google.com/forms/d/e/1FAIpQLScsodwo3BSL3fPVXAx6iLFriDg4T5f8l3XY_jdpXrwILIyMgA/viewform?embedded=true">Connect with us</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Features section-->
-        <section class="py-5" id="features">
+        <section class="py-5 " id="features">
             <div class="container px-5 my-5">
-                <div class="row text-center mb-5">
-                    <h2 class="text-warning" style="font-size: 40px; font-weight: bold;">Why choose us?</h2>
+                <div class="row">
+                    <div class="col d-flex justify-content-center" >
+                        <h2 class="text-warning" style="font-size: 40px; font-weight: bold; margin-bottom: 70px;">Why choose us?</h2>
+                    </div>
                 </div>
                 <div class="row gx-5">
-                    <div class="col-lg-4 mb-5">
-                        <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3 d-inline-flex justify-content-center align-items-center" style="padding: 0.5rem;">
-                            <i class="bi bi-globe" style="font-size: 20px;"></i>
-                        </div>
-                        <h2 class="h4 fw-bolder text-white">We are global</h2>
+                    <div class="col-lg-4 mb-5 mb-lg-0 ">
+                        
+                        <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3  d-inline-flex justify-content-center align-items-center" style="padding: 0.5rem;" >
+                            <i class="bi bi-globe" style="font-size: 20px;"></i></div>
+                        <h2 class="h4 fw-bolder text-white ">We are global</h2>
                         <p class="text-white">No matter where you are, we've got you covered.</p>
+                        
                     </div>
-                    <div class="col-lg-4 mb-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3 d-inline-flex justify-content-center align-items-center" style="padding: 0.5rem;">
-                            <i class="bi bi-people-fill" style="font-size: 20px;"></i>
-                        </div>
-                        <h2 class="h4 fw-bolder text-white">We value our clients</h2>
-                        <p class="text-white">Virtual assistance. Talk to us about any concerns, 24/7.</p>
+    <i class="bi bi-people-fill" style="font-size: 20px;" ></i>
+</div>
+
+ <h2 class="h4 fw-bolder text-white">We value our clients</h2>
+<p class="text-white">Virtual assistance.Talk to us about any concerns, 24/7.</p>
+                        
                     </div>
                     <div class="col-lg-4">
                         <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3 d-inline-flex justify-content-center align-items-center" style="padding: 0.5rem;">
-                            <i class="bi bi-laptop" style="font-size: 20px;"></i>
-                        </div>
+                            <i class="bi bi-laptop " style="font-size: 20px;"></i></div>
                         <h2 class="h4 fw-bolder text-white">We use top-rate systems</h2>
-                        <p class="text-white">Easy peasy UI. Our interface is simple and easy to use.</p>
+                        <p class="text-white">Easy peasy UI.Our interface is simple and easy to use.</p>
+                        
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Services Section-->
-        <section class="py-5" id="service">
+        <!-- service section-->
+        <section class=" py-5 " id="service">
             <div class="container px-3 my-5">
                 <div class="text-center mb-5">
-                    <h2 class="fw-bolder text-warning" style="font-size: 40px;">Our Services</h2>
+                    <h2 class="fw-bolder text-warning" style="font-size: 40px; ">Our Services</h2>
+                    
                 </div>
-                <div class="row gx-5">
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card mt-3 cardu">
-                            <img class="img-fluid rounded" id="image" src="https://www.shutterstock.com/image-photo/crm-customer-relationship-management-concept-600nw-2323051755.jpg" alt="">
-                            <div class="card-body">
-                                <h2>CRMS & Invoice Software</h2>
-                                <p>Manage customer relationships and billing seamlessly with our integrated CRMS and invoice software solution.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card mt-3 cardu">
-                            <img class="img-fluid rounded" id="image" src="./transport.jpg" alt="">
-                            <div class="card-body">
-                                <h2>Transport & Logistics Solution</h2>
-                                <p>Optimize your operations with our advanced transport and logistics solutions, and integrated analytics for smarter decision-making.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <div class="card mt-3 cardu">
-                            <img class="img-fluid rounded" id="image" src="./web_mob.jpg" alt="">
-                            <div class="card-body">
-                                <h2>Website & Mobile Apps</h2>
-                                <p>Enhance your digital presence with our custom-built websites and mobile apps, designed for seamless user experiences across all devices.</p>
-                            </div>
-                        </div>
-                    </div>
+                   <div class="row">
+        <div class="col">
+            <div class="card mt-3 cardu" >
+                <img class="img-fluid rounded" id="image" src="https://www.shutterstock.com/image-photo/crm-customer-relationship-management-concept-600nw-2323051755.jpg" alt="">
+                <div class="card-body">
+                    <h2>CRMS & Invoice ​Software</h2>
+                    <p>Manage customer ​relationships and billing ​seamlessly with our ​integrated CRMS and ​invoice software solution.</p>    
                 </div>
             </div>
+
+        </div>
+        <div class="col">
+            <div class="card mt-3 cardu" >
+                <img class="img-fluid rounded" id="image" src="./transport.jpg" alt="">  
+                <div class="card-body">
+                    <h2>Transport & Logistics ​Solution</h2>
+                    <p>Optimize your operations ​with our advanced transport ​and logistics solutions, and ​integrated analytics for ​smarter decision-making.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mt-3 cardu" >
+                <img class="img-fluid rounded" id="image" src="./web mob.jpg" alt="">
+                <div class="card-body">
+                    <h2>Website & Mobile <br>Apps</h2>
+                    <p>Enhance your digital ​presence with our custom-​built websites and mobile ​apps, designed for ​seamless user experiences ​across all devices.</p>        
+                </div>
+             </div>
+           </div>
+       </div>
+            </div>
         </section>
-        <!-- Testimonials Section-->
-        <section class="py-5 testi">
-            <div class="container px-5 my-5">
+        <!-- Testimonials section-->
+        <section class="py-5 testi " >
+            <div class="container px-5 my-5 px-5 " >
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder text-warning">Client Testimonials</h2>
                     <p class="lead mb-0 text-white">Our customers love working with us</p>
@@ -206,8 +224,8 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0 d-inline-flex justify-content-center align-items-center"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
-                                        <p class="mb-1">MarteX’s integrated CRMS and invoice software streamlined our entire billing process. We've seen a significant improvement in customer management and payment tracking. It's been a game-changer for our business!</p>
-                                        <div class="small text-muted">- Dharan, Wright Co.</div>
+                                        <p class="mb-1">MarteX’s integrated CRMS ​and invoice software ​streamlined our entire ​billing process. We've seen a ​significant improvement in ​customer management and ​payment tracking. It's been ​a game-changer for our ​business!</p>
+                                        <div class="small text-muted">- Dharan, ​Wright Co.</div>
                                     </div>
                                 </div>
                             </div>
@@ -218,8 +236,8 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
-                                        <p class="mb-1">The transport and logistics solution from MarteX has optimized our operations like never before. The analytics feature provides valuable insights that have improved our efficiency and decision-making.</p>
-                                        <div class="small text-muted">- Vihaan Kumar, Planwell Transports</div>
+                                        <p class="mb-1">The transport ad logistics ​solution from MarteX has ​optimized our operations ​like never before. The ​analytics feature provides ​valuable insights that have ​improved our efficiency and ​decision-making.</p>
+                                        <div class="small text-muted">- Vihaan Kumar, ​Planwell ​Transports</div>
                                     </div>
                                 </div>
                             </div>
@@ -230,8 +248,8 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0" style="width: 50px; height: 50px; display: flex; justify-content: center; align-items: center;"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
                                     <div class="ms-4">
-                                        <p class="mb-1">MarteX built us a stunning website and a user-friendly mobile app that have both elevated our brand presence. The seamless experience across devices has truly impressed our customers and made a significant impact on our business.</p>
-                                        <div class="small text-muted">- Sarah Williams, WizTech</div>
+                                        <p class="mb-1">MarteX built us a stunning ​website and a user-friendly ​mobile app that have both ​elevated our brand ​presence. The seamless ​experience across devices ​has truly impressed our ​customers and boosted our ​online engagement</p>
+                                        <div class="small text-muted">- Raju Singh, Harmeet Express</div>
                                     </div>
                                 </div>
                             </div>
@@ -240,37 +258,135 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Section-->
-        <section class="bg-dark py-5" id="contact">
-            <div class="container px-5 my-5">
-                <div class="row justify-content-center mb-5">
-                    <h2 class="fw-bolder text-warning text-center">Get in Touch</h2>
-                    <p class="lead text-white-50 text-center mb-0">Have any questions or want to learn more? Contact us below!</p>
+        <!-- Contact section-->
+        <section class=" py-5" id="contact">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                   
+                    <h2 class="fw-bolder text-white">Let's work together!</h2>
+                    <p class="lead mb-0 text-white" >Book a free consultation.</p>
+
+                    
+
+                    <button class="btn btn-warning mt-3" onclick="toggleForm()">Contact us</button>
+
+    <!-- Container that will hold the Google Form -->
+    <div id="googleFormContainer" style="display: none;
+            margin-top: 20px;">
+       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsodwo3BSL3fPVXAx6iLFriDg4T5f8l3XY_jdpXrwILIyMgA/viewform?embedded=true" width="640" height="853" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+    
+                  
+
+
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <form method="POST" action="submit_form.php">
-                            <div class="mb-3">
-                                <label for="name" class="form-label text-white">Your Name</label>
-                                <input type="text" class="form-control" id="name" name="name" required />
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label text-white">Your Email</label>
-                                <input type="email" class="form-control" id="email" name="email" required />
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label text-white">Your Message</label>
-                                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-warning w-100">Submit</button>
-                        </form>
+
+
+
+
+
+
+
+                
+                 
+<div class="container mt-5">
+    <div class="row gx-5 justify-content-center">
+        <div class="col-lg-6" id="formContainer">
+            <form id="contactForm">
+                <!-- Name input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                    <label for="name">Full name</label>
+                    <div class="invalid-feedback" id="nameError">A name is required.</div>
+                </div>
+
+                <!-- Email address input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+                    <label for="email">Email address</label>
+                    <div class="invalid-feedback" id="emailError">A valid email is required.</div>
+                </div>
+
+                <!-- Phone number input-->
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" required />
+                    <label for="phone">Phone number</label>
+                    <div class="invalid-feedback" id="phoneError">A phone number is required.</div>
+                </div>
+
+                <!-- Message input-->
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="invalid-feedback" id="messageError">A message is required.</div>
+                </div>
+
+                <!-- Submit Button-->
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Submit success message-->
+    <div class="d-none" id="submitSuccessMessage">
+        <div class="text-center mb-3">
+            <div class="fw-bolder text-white">Form submission successful! <br></div>
+            
+        </div>
+    </div>
+
+    <!-- Submit error message-->
+    <div class="d-none" id="submitErrorMessage">
+        <div class="text-center text-danger mb-3">Error sending message!</div>
+    </div>
+</div>
+
+
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Bootstrap JS and dependencies-->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+        <!-- Footer-->
+        <!-- <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer> -->
+
+        <footer class="p-1 bg-dark text-white " style=" box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); " >
+            <div class="row">
+                
+                
+                <div class="col" style="margin-top: 10px; padding-left: 250px;">
+                    <p style="font-size:20px; color: gold;"><i class="fa-solid fa-phone"></i>  Phone</p>
+                    <p style="font-size: 15px;">+91 88255 66752</p>
+                </div>
+                    <div class="col me-4" style="margin-top: 10px; ">
+                        <p  style="font-size: 20px;color: gold;"><i class="fa-solid fa-envelope"></i>  Email</p>
+                        <p style=" font-size: 15px;">themartexenterprises@gmail.com</p>
+                        
+                    </div>
+                    <div class="col" style="margin-top: 10px; ">
+                        <p  style="font-size: 20px;color: gold;"><i class="fas fa-crown"></i> Founder & CEO</p>
+                        <p style="font-size: 15px;">Ranjith G</p>
+                </div>
+                <div class="col d-flex justify-content-end align-items-end " style="margin-bottom: -15px; margin-top: 10px; font-size: 10px;">
+                    <p>@2024 MarteX software enterprises. All rights reserved</p>
+                </div>
+              
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
 
