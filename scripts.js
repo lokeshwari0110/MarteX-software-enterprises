@@ -8,7 +8,7 @@
 
 
 
-<script>
+
         // Function to toggle the visibility of the Google Form
         function toggleForm() {
             var formContainer = document.getElementById("googleFormContainer");
@@ -18,8 +18,7 @@
                 formContainer.style.display = "none";   // Hide the form
             }
         }
-    </script>
-<script>
+    
     // Get form elements
     const form = document.getElementById("contactForm");
     const submitButton = document.getElementById("submitButton");
@@ -82,4 +81,4 @@
         errorMessage.textContent = message;
         errorMessage.classList.remove("d-none");
     }
-</script>
+
