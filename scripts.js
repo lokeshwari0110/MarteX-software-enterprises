@@ -19,3 +19,67 @@
             }
         }
     </script>
+<script>
+    // Get form elements
+    const form = document.getElementById("contactForm");
+    const submitButton = document.getElementById("submitButton");
+    const successMessage = document.getElementById("submitSuccessMessage");
+    const errorMessage = document.getElementById("submitErrorMessage");
+    const formContainer = document.getElementById("formContainer");
+
+    // Form submit event
+    form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Clear previous error/success messages
+        successMessage.classList.add("d-none");
+        errorMessage.classList.add("d-none");
+
+        // Form data
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const message = document.getElementById("message").value;
+
+        // Validate form fields
+        if (!name || !email || !phone || !message) {
+            showErrorMessage("Please fill all fields correctly.");
+            return;
+        }
+
+        // Prepare form data to send (usually as JSON or URL-encoded)
+        const formData = new FormData();
+        formData.append("name", name);
+        formData.append("email", email);
+        formData.append("phone", phone);
+        formData.append("message", message);
+
+        // Disable the submit button while sending
+        submitButton.disabled = true;
+
+        // Simulate form submission using AJAX (using fetch here)
+        setTimeout(() => {
+            // Simulate successful response (remove this for real API)
+            const isSuccess = true; // Change to false to simulate an error
+
+            if (isSuccess) {
+                // Hide the form
+                formContainer.classList.add("d-none");
+                // Show success message
+                successMessage.classList.remove("d-none");
+            } else {
+                // Show error message
+                errorMessage.classList.remove("d-none");
+            }
+
+            // Re-enable the submit button
+            submitButton.disabled = false;
+        }, 2000); // Simulate delay for server response
+    });
+
+    // Show error message in the UI
+    function showErrorMessage(message) {
+        errorMessage.textContent = message;
+        errorMessage.classList.remove("d-none");
+    }
+</script>
