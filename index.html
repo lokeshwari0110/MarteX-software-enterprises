@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Martex Enterprises</title>
+        <title>Martex Software Enterprises</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -23,10 +23,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <style>
-            /* Adjust card and image styling */
-           
-           
-           
+            
             body {
     overflow: scroll;
 }
@@ -158,8 +155,8 @@ body::-webkit-scrollbar {
 
     /* Default style for card on larger screens */
 .card {
-    width: 600px;  /* Fixed width for large screens */
-    margin: 0 auto; /* Center the card */
+    width: 600px;  
+    margin: 0 auto; 
 }
 
 /* Ensure the image scales within the card */
@@ -171,39 +168,39 @@ body::-webkit-scrollbar {
 /* Mobile View (Small screens) */
 @media (max-width: 576px) {
     .card {
-        width: 90%; /* Take 90% of the screen width on mobile */
+        width: 90%; 
     }
     .card-body {
         padding: 1rem;
     }
     h2 {
-        font-size: 16px; /* Smaller title font */
+        font-size: 16px; 
     }
     p {
-        font-size: 12px; /* Smaller paragraph font */
+        font-size: 12px; 
     }
 }
 
 /* Tablet View (Medium screens) */
 @media (max-width: 768px) {
     .card {
-        width: 80%; /* Take 80% of the screen width on tablets */
+        width: 80%; 
     }
     h2 {
-        font-size: 18px; /* Make title font a bit larger for tablet */
+        font-size: 18px; 
     }
     p {
-        font-size: 14px; /* Adjust paragraph font for tablet */
+        font-size: 14px; 
     }
 }
 
 /* Desktop View (Larger screens) */
 @media (min-width: 992px) {
     .card {
-        width: 400px; /* Fixed width for larger screens */
+        width: 400px; 
     }
     h2 {
-        font-size: 20px; /* Larger font for larger screens */
+        font-size: 20px; 
     }
     p {
         font-size: 16px;
@@ -212,22 +209,76 @@ body::-webkit-scrollbar {
             .responsive-brand {
   font-size: 40px;
   text-align: center;
-  display: block; /* Makes it center-aligned for mobile if needed */
-  word-wrap: break-word; /* Ensures long text wraps */
+  display: block;
+  word-wrap: break-word; 
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .responsive-brand {
-    font-size: 30px; /* Reduce font size for tablets */
+    font-size: 30px; 
   }
 }
 
 @media (max-width: 576px) {
   .responsive-brand {
-    font-size: 20px; /* Further reduce for phones */
+    font-size: 20px; 
   }
 }
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+.cardu {
+    width: 100%; 
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.4s ease-in-out;
+}
+
+.cardu:hover {
+    transform: translateY(-20px); 
+}
+
+.cardu img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+/* Column Padding */
+.col {
+    padding: 0 10px; 
+}
+
+/* Responsive Design for Small Devices */
+@media (max-width: 576px) {
+    .row {
+        margin: 0; 
+    }
+
+    .col {
+        width: 100%; 
+        padding: 0 10px;
+    }
+
+    .cardu {
+        margin-bottom: 20px; 
+    }
+}
+
+/* Responsive Design for Medium Devices */
+@media (max-width: 768px) {
+    .col {
+        width: 100%; 
+        padding: 0 10px;
+    }
+}
+
+
 
         </style>
     </head>
@@ -259,7 +310,7 @@ body::-webkit-scrollbar {
         <!-- Features Section -->
         <section class="py-5 " id="features">
             <div class="container text-center">
-                <h2 class="text-warning fw-bold mb-4" style="margin-bottom: 70px;font-size:40px">Why Choose Us?</h2>
+                <h2 class="text-warning fw-bold mb-4" style="margin-bottom: 70px;font-size:40px; margin-top: 50px;">Why Choose Us?</h2>
                 <div class="row g-4" style="margin-top: 70px;">
                     <div class="col-md-4" >
                         <i class="bi bi-globe text-warning fs-1"></i>
@@ -500,5 +551,7 @@ body::-webkit-scrollbar {
         <script src="scripts.js"></script>
     </body>
 </html>
+
+
 
 
